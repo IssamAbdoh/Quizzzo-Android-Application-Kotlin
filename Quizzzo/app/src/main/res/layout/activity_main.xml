@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/activity_background_color"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100sp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center_vertical"
+        android:text="Quizzzo"
+        android:textColor="@color/text_color1"
+        android:textSize="45dp" />
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="65dp"
+        android:textColorHint="@color/text_color2"
+        android:hint="Email"
+        />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/text_color2"
+        android:hint="Password"
+
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@color/button_background_color"
+        android:textColor="@color/text_color1"
+        android:textStyle="bold"
+        android:text="Login"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="150sp"
+            android:layout_height="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="#490b3d"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textColor="#490b3d"
+            />
+
+        <View
+            android:layout_width="150sp"
+            android:layout_height="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="#490b3d"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/amaranth_bold"
+        android:gravity="center_vertical"
+        android:text="Don't have an account?"
+        android:textColor="#490b3d"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@color/button_background_color"
+        android:text="Sign Up"
+        android:textColor="#00abe1"
+        android:textStyle="bold"
+        />
+
+
+
+</LinearLayout>
